@@ -22,6 +22,10 @@
         border-bottom:2px solid #1e3a8a;
         padding-bottom:5px;
 }
+        h2m{
+        color:#1e3a8a;
+        padding-bottom:5px;
+}
         .imgn{
         width:300px;
         border-radius:10px;
@@ -49,7 +53,13 @@
         border-radius:10px;
         box-shadow:0 4px 10px rgba(0,0,0,0.1);
 }
-      
+       .inicio{
+        background:white;
+        padding:20px;
+        margin:20px 0;
+        border-radius:10px;
+        box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
         .botao-topo{
         display:flex;
         justify-content:center;
@@ -151,6 +161,21 @@
                 left:10px;
                 color:#1e3a8a;
 }
+
+        .bloco-texto {
+        flex: 1; /* Faz o texto ocupar o espaço disponível na esquerda */
+}
+
+        .bloco-imagens {
+        display: flex; /* Faz as imagens ficarem lado a lado entre elas */
+        gap: 10px;     /* Espaço entre as duas fotos */
+}
+
+        .bloco-imagens img {
+        width: 350px;  /* Ajuste o tamanho conforme sua necessidade */
+        height: auto;
+        border-radius: 8px;
+}
         
 </style>
     </head>
@@ -176,10 +201,11 @@
             <body>
                 <div class="decoracao es">Developed by</div>
                 <div class="decoracaoo ess">Matheus Faleiro</div>
-                <div>
+                
+                <div class="inicio">
                     <h1>𓂃˖˳·˖ ִֶָ ⋆ Nuestro Viaje en Español ͙⋆ ִֶָ˖·˳˖𓂃 </h1>
-                    <h2 class="quem"></h2>
-                    <div class="perfil2">
+                    <h2m class="quem"></h2m>
+                    
                         <p style="text-align:center;">Bienvenidos a nuestra página web. Aquí documentaremos nuestras actividades 
                         y experiencias de aprendizaje en las clases de español durante el curso escolar con el maestro Nikollas.</p>
                     </div>
@@ -278,14 +304,14 @@
                             y experiencias que viviremos durante las clases.
                         </p>
                         <h3 class="algo">¿Lo que esperamos este año?</h3>
-                        <p>Aprender más vocabulario en español, mejorar nuestra pronunciación
+                        <p>🡪 Aprender más vocabulario en español, mejorar nuestra pronunciación
                             y comprender mejor el idioma.
                         </p>
                         <h3 class="algo"></h3>
-                        <p>Practica con preguntas de exámenes de ingreso a la universidad para ser admitido.
+                        <p>🡪 Practica con preguntas de exámenes de ingreso a la universidad para ser admitido.
                         </p>
                         <h3 class="algo"></h3>
-                        <p>Clases dinámicas y práctica de pronunciación
+                        <p>🡪 Clases dinámicas y práctica de pronunciación
                         </p>
                         <h3 class="algo">Nuestra experiencia con las clases de español</h3>
                         <p>Hasta ahora nuestra experiencia con el español ha sido muy interesante. 
@@ -299,20 +325,41 @@
                      <h2 class="quem">⊹₊˚‧︵‿₊ Actividades del año ₊‿︵‧˚₊⊹</h2>
 
                         <div class="perfil">
-                            <h3 class="algo">Actividad 1 - 13/03/2026</h3>
-                            <p>Para nuestra primera tarea, el maestro Nikollas nos pidió que creárams un sitio web, que sirviera como portafolio.</p>
-                            <img src="Captura de tela 2026-03-14 211510.png" class="grnd">
+                            <h3 class="algo">Actividad 1: Creación de nuestro sitio web</h3>
+                            <p> Para nuestra primera tarea, el maestro Nikollas nos pidió que creárams un sitio web, que sirviera como portafolio.</p>
+                            <img src="Captura de tela 2026-04-11 175635.png" class="grnd">
                             <p>Creamos el sitio web utilizando Visual Studio Code, en CSS y HTML.</p>
                         </div>
 
                         <div class="perfil">
-                        <h3 class="algo">Actividad 2</h3>
-                        <p>Aqui agregaremos nuevas actividades durante el año.</p>
+                        <h3 class="algo">Actividad 2: Canción en español</h3>
+                        <p>El maestro nos propuso una actividad sobre países hispanohablantes, y nuestro grupo eligió Puerto Rico. Teníamos
+                                 que grabar un videoclip de una canción puertorriqueña. Después de investigar algunas opciones, elegimos "¿Oh, qué será?" de Willie Colón.</p>
+                        <img src="clipe.jpeg" class="grnd">
+                        <p> Fue una experiencia divertida, ya que tuvimos que organizar la grabación y aprender más sobre la cultura musical del país.</p>  
+                        <a href="https://youtu.be/_eEVI9zGwDc?si=j9JDR23aU2jiCETK" target="_blank" class="botao-nos">˗ˏˋ ★ ˎˊ˗</a> 
                         </div>
 
                         <div class="perfil">
-                        <h3 class="algo">Actividad 3</h3>
+                        <h3 class="algo">Actividad 3: Presentación del Puerto Rico</h3>
+                        <p>El maestro nos pidió hacer una presentación sobre un país hispanohablante, y nuestro grupo eligió Puerto Rico.</p>
+                        <img src="Captura de tela 2026-04-16 000538.png" class="grnd">  
+                        <p>En la presentación, hablamos sobre su cultura, su historia y sus tradiciones. También mencionamos algunos aspectos 
+                                importantes como la música y la comida. Fue una actividad interesante porque aprendimos más sobre el país.</p>
+                        <a href="https://canva.link/4wjikyarziolzi0" target="_blank" class="botao-nos">˗ˏˋ ★ ˎˊ˗</a> 
+                        </div>
+
+                        <div class="perfil">
+                                <div class="bloco-texto">
+                        <h3 class="algo">Actividad 4: Publicación sobre la gincana</h3>
                         <p>Aqui agregaremos nuevas actividades durante el año.</p>
+                                </div>
+                                <div class="bloco-imagens">
+                        <img src="gincana.jpeg">  
+                        <img src="turma chaves.jpeg"> 
+                                </div>
+                        <p>¡Nuestros últimos juegos escolares en ETEP han sido increíbles! Empezamos muy bien; la actividad que elegimos 
+                                fue la de caracterización, donde nos disfrazamos de personajes de El Chavo del Ocho.</p>
                         </div>
 
                         <div class="perfil">
