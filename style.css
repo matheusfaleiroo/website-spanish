@@ -1,0 +1,164 @@
+        h1{
+        text-align:center;
+        color:#1e3a8a;
+}
+        h2{
+        color:#1e3a8a;
+        border-bottom:2px solid #1e3a8a;
+        padding-bottom:5px;
+}
+        h2m{
+        color:#1e3a8a;
+        padding-bottom:5px;
+}
+        .imgn{
+        width:300px;
+        border-radius:10px;
+        margin:10px 0;
+}
+        .grnd{
+        width:800px;
+        border-radius:10px;
+        margin:10px 0;
+}
+        .algo{
+        color:#1e3a8a;
+        
+        padding-bottom:5px;
+}
+        .quem{
+        text-align:center;
+        color:#1e3a8a;
+        padding-bottom:5px;
+}
+        .perfil{
+        background:white;
+        padding:20px;
+        margin:20px 0;
+        border-radius:10px;
+        box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+       .inicio{
+        background:white;
+        padding:20px;
+        margin:20px 0;
+        border-radius:10px;
+        box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+        .botao-topo{
+        display:flex;
+        justify-content:center;
+        width:220px;
+        margin:40px auto;
+        text-align:center;
+        background:#1e3a8a;
+        color:white;
+        padding:15px;
+        font-size:18px; 
+        border-radius:10px;
+        text-decoration:none;
+        line-height:20px;
+}
+        .botao-topo:hover{
+            background:#4068d6;
+            transform:scale(1.1);
+            transition:0.3s;
+}
+        img:hover{
+        transform:scale(1.1);
+        transition:0.3s;
+}
+        .botao-nos{
+        display:flex;
+        justify-content:center;
+        width:220px;
+        margin:40px auto;
+        text-align:center;
+        background:#1e3a8a;
+        color:white;
+        padding:15px;
+        font-size:18px; 
+        border-radius:10px;
+        text-decoration:none;
+        line-height:20px;
+}
+        .botao-nos:hover{
+            background:#4068d6;
+            transform:scale(1.1);
+            transition:0.3s;
+}
+        .botao-ob{
+        display:flex;
+        justify-content:center;
+        width:220px;
+        margin:40px auto;
+        text-align:center;
+        background:#1e3a8a;
+        color:white;
+        padding:15px;
+        font-size:18px; 
+        border-radius:10px;
+        text-decoration:none;
+        line-height:20px;
+}
+        .botao-ob:hover{
+            background:#4068d6;
+            transform:scale(1.1);
+            transition:0.3s;
+}
+        .botao-ac{
+        display:flex;
+        justify-content:center;
+        width:220px;
+        margin:40px auto;
+        text-align:center;
+        background:#1e3a8a;
+        color:white;
+        padding:15px;
+        font-size:18px; 
+        border-radius:10px;
+        text-decoration:none;
+        line-height:20px;
+}
+        .botao-ac:hover{
+            background:#4068d6;
+            transform:scale(1.1);
+            transition:0.3s;
+}
+        .decoracao{
+                position:fixed;
+                top:95%;
+                font-size:25px;
+                
+}
+        .es{
+                left:10px;
+                color:#1e3a8a;
+}
+
+        .decoracaoo{
+                position:fixed;
+                top:97.5%;
+                font-size:20px;
+                
+}
+        .ess{
+                left:10px;
+                color:#1e3a8a;
+}
+
+        .bloco-texto {
+        flex: 1; /* Faz o texto ocupar o espaço disponível na esquerda */
+}
+
+        .bloco-imagens {
+        display: flex; /* Faz as imagens ficarem lado a lado entre elas */
+        gap: 10px;     /* Espaço entre as duas fotos */
+}
+
+        .bloco-imagens img {
+        width: 350px;  /* Ajuste o tamanho conforme sua necessidade */
+        height: auto;
+        border-radius: 8px;
+}
+        
