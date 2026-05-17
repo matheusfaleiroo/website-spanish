@@ -1,164 +1,178 @@
-        h1{
-        text-align:center;
-        color:#1e3a8a;
-}
-        h2{
-        color:#1e3a8a;
-        border-bottom:2px solid #1e3a8a;
-        padding-bottom:5px;
-}
-        h2m{
-        color:#1e3a8a;
-        padding-bottom:5px;
-}
-        .imgn{
-        width:300px;
-        border-radius:10px;
-        margin:10px 0;
-}
-        .grnd{
-        width:800px;
-        border-radius:10px;
-        margin:10px 0;
-}
-        .algo{
-        color:#1e3a8a;
-        
-        padding-bottom:5px;
-}
-        .quem{
-        text-align:center;
-        color:#1e3a8a;
-        padding-bottom:5px;
-}
-        .perfil{
-        background:white;
-        padding:20px;
-        margin:20px 0;
-        border-radius:10px;
-        box-shadow:0 4px 10px rgba(0,0,0,0.1);
-}
-       .inicio{
-        background:white;
-        padding:20px;
-        margin:20px 0;
-        border-radius:10px;
-        box-shadow:0 4px 10px rgba(0,0,0,0.1);
-}
-        .botao-topo{
-        display:flex;
-        justify-content:center;
-        width:220px;
-        margin:40px auto;
-        text-align:center;
-        background:#1e3a8a;
-        color:white;
-        padding:15px;
-        font-size:18px; 
-        border-radius:10px;
-        text-decoration:none;
-        line-height:20px;
-}
-        .botao-topo:hover{
-            background:#4068d6;
-            transform:scale(1.1);
-            transition:0.3s;
-}
-        img:hover{
-        transform:scale(1.1);
-        transition:0.3s;
-}
-        .botao-nos{
-        display:flex;
-        justify-content:center;
-        width:220px;
-        margin:40px auto;
-        text-align:center;
-        background:#1e3a8a;
-        color:white;
-        padding:15px;
-        font-size:18px; 
-        border-radius:10px;
-        text-decoration:none;
-        line-height:20px;
-}
-        .botao-nos:hover{
-            background:#4068d6;
-            transform:scale(1.1);
-            transition:0.3s;
-}
-        .botao-ob{
-        display:flex;
-        justify-content:center;
-        width:220px;
-        margin:40px auto;
-        text-align:center;
-        background:#1e3a8a;
-        color:white;
-        padding:15px;
-        font-size:18px; 
-        border-radius:10px;
-        text-decoration:none;
-        line-height:20px;
-}
-        .botao-ob:hover{
-            background:#4068d6;
-            transform:scale(1.1);
-            transition:0.3s;
-}
-        .botao-ac{
-        display:flex;
-        justify-content:center;
-        width:220px;
-        margin:40px auto;
-        text-align:center;
-        background:#1e3a8a;
-        color:white;
-        padding:15px;
-        font-size:18px; 
-        border-radius:10px;
-        text-decoration:none;
-        line-height:20px;
-}
-        .botao-ac:hover{
-            background:#4068d6;
-            transform:scale(1.1);
-            transition:0.3s;
-}
-        .decoracao{
-                position:fixed;
-                top:95%;
-                font-size:25px;
-                
-}
-        .es{
-                left:10px;
-                color:#1e3a8a;
+.perfil{
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    padding: 25px;
+    margin: 30px 0;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    overflow: hidden;
+
+    text-align: left;
 }
 
-        .decoracaoo{
-                position:fixed;
-                top:97.5%;
-                font-size:20px;
-                
-}
-        .ess{
-                left:10px;
-                color:#1e3a8a;
+.perfil:hover{
+    transform: translateY(-5px);
 }
 
-        .bloco-texto {
-        flex: 1; /* Faz o texto ocupar o espaço disponível na esquerda */
+.imgn{
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 4px solid #1e3a8a;
+
+    display: block;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
-        .bloco-imagens {
-        display: flex; /* Faz as imagens ficarem lado a lado entre elas */
-        gap: 10px;     /* Espaço entre as duas fotos */
+
+.imgn:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
 }
 
-        .bloco-imagens img {
-        width: 350px;  /* Ajuste o tamanho conforme sua necessidade */
-        height: auto;
-        border-radius: 8px;
+.grnd{
+    width: 70%; /* diminui */
+    max-width: 500px;
+    border-radius: 20px;
+    display: block;
+    margin: 20px auto;
 }
-        
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.botao-nos,
+.botao-ob,
+.botao-ac,
+.botao-topo{
+    text-decoration: none;
+    background: #1e3a8a;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 10px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.botao-nos:hover,
+.botao-ob:hover,
+.botao-ac:hover,
+.botao-topo:hover{
+    background: #3b82f6;
+    transform: scale(1.05);
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.inicio{
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.inicio h1{
+    font-size: 42px;
+    color: #1e3a8a;
+}
+
+body{
+    background:
+    linear-gradient(to right, #ffffffcc, #dbeafecc, #ffffffcc),
+    url('fundo.jpg');
+
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(to right,#1e3a8a,#60a5fa);
+    z-index: 999;
+}
+
+h1{
+    text-align: center;
+}
+
+.quem{
+    text-align: center;
+}
+
+.perfil h2{
+    text-align: left;
+}
+.perfil h3{
+    text-align: left;
+}
+
+.botao-topo{
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+}
+
+.botao-nos,
+.botao-ob,
+.botao-ac{
+    display: inline-block;
+    width: fit-content;
+    margin: 10px;
+}
+
+.botao-mc{
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+
+    text-decoration: none;
+    background: #1e3a8a;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 15px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.botao-mc:hover{
+    background: #3b82f6;
+    transform: scale(1.05);
+}
+
+.botoes-secoes{
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    padding: 25px;
+    margin: 30px 0;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    overflow: hidden;
+    text-align: center;
+}
+
+.bloco-imagens{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.bloco-imagens img{
+    width: 280px;
+    border-radius: 20px;
+    object-fit: cover;
+}
